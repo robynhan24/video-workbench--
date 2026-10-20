@@ -1,0 +1,60 @@
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'D:\Robyn\G---动物救援youtube\NN 抖音视频下载\03 秋芝-豆包.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf62.3.100
+    comment         : vid:v0d00fg10000d9dqqk7og65v8usk9190
+  Duration: 00:08:10.52, start: 0.000000, bitrate: 615 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], 554 kb/s, 30 fps, 30 tbr, 15360 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+  Stream #0:1[0x2](und): Audio: aac (HE-AACv2) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 54 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+Stream mapping:
+  Stream #0:1 -> #0:0 (aac (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, null, to 'NUL':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    comment         : vid:v0d00fg10000d9dqqk7og65v8usk9190
+    encoder         : Lavf62.12.102
+  Stream #0:0(und): Audio: pcm_s16le, 192000 Hz, stereo, s16, 6144 kb/s (default)
+    Metadata:
+      encoder         : Lavc62.28.102 pcm_s16le
+      handler_name    : SoundHandler
+size=N/A time=00:00:26.70 bitrate=N/A speed=52.2x elapsed=0:00:00.51
+size=N/A time=00:00:52.90 bitrate=N/A speed=51.5x elapsed=0:00:01.02
+size=N/A time=00:01:19.60 bitrate=N/A speed=51.4x elapsed=0:00:01.54
+size=N/A time=00:01:46.30 bitrate=N/A speed=51.5x elapsed=0:00:02.06
+size=N/A time=00:02:13.50 bitrate=N/A speed=51.6x elapsed=0:00:02.58
+size=N/A time=00:02:40.40 bitrate=N/A speed=51.9x elapsed=0:00:03.08
+size=N/A time=00:03:09.10 bitrate=N/A speed=52.3x elapsed=0:00:03.61
+size=N/A time=00:03:36.10 bitrate=N/A speed=52.3x elapsed=0:00:04.12
+size=N/A time=00:04:03.80 bitrate=N/A speed=52.5x elapsed=0:00:04.64
+size=N/A time=00:04:30.50 bitrate=N/A speed=52.5x elapsed=0:00:05.15
+size=N/A time=00:04:59.10 bitrate=N/A speed=52.7x elapsed=0:00:05.67
+size=N/A time=00:05:26.00 bitrate=N/A speed=52.7x elapsed=0:00:06.18
+size=N/A time=00:05:54.80 bitrate=N/A speed=52.9x elapsed=0:00:06.70
+size=N/A time=00:06:23.50 bitrate=N/A speed=  53x elapsed=0:00:07.22
+size=N/A time=00:06:52.20 bitrate=N/A speed=53.2x elapsed=0:00:07.75
+size=N/A time=00:07:20.40 bitrate=N/A speed=53.3x elapsed=0:00:08.26
+size=N/A time=00:07:48.80 bitrate=N/A speed=53.4x elapsed=0:00:08.78
+[Parsed_loudnorm_0 @ 00000241eaf9cd80]
+{
+	"input_i" : "-13.53",
+	"input_tp" : "1.70",
+	"input_lra" : "3.90",
+	"input_thresh" : "-23.74",
+	"output_i" : "-24.05",
+	"output_tp" : "-8.71",
+	"output_lra" : "3.80",
+	"output_thresh" : "-34.25",
+	"normalization_type" : "dynamic",
+	"target_offset" : "0.05"
+}
+[out#0/null @ 00000241eaf9ca80] video:0KiB audio:367892KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+size=N/A time=00:08:10.60 bitrate=N/A speed=53.5x elapsed=0:00:09.16

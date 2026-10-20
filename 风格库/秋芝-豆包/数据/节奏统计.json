@@ -1,0 +1,41 @@
+{
+  "duration_s": 490.52,
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "source_bytes": 37749141,
+  "scene_detection": {
+    "method": "FFmpeg scale=320:-1,select=gt(scene,0.25); candidates, not validated cuts or all visual changes",
+    "candidate_count": 64,
+    "per_minute": 7.82842697545462,
+    "median_interval_s": 4.599999999999994,
+    "max_interval_s": 48.233333000000016
+  },
+  "host_main_visual_sampling": {
+    "interval_s": 3,
+    "samples": 164,
+    "host_samples": 25,
+    "percent": 15.24390243902439,
+    "meaning": "Manual review of sampled frames; includes host with overlays, excludes circular PIP; not exact screen-time"
+  },
+  "asr": {
+    "model": "OpenAI Whisper base (local)",
+    "han_characters": 2111,
+    "han_characters_per_total_minute": 258.215771018511,
+    "status": "uncorrected machine transcription; not exact speaking rate"
+  },
+  "original_mix_loudness": {
+    "integrated_lufs": -13.53,
+    "true_peak_dbtp": 1.7,
+    "lra_lu": 3.9,
+    "method": "FFmpeg loudnorm on original source audio; no source separation"
+  },
+  "not_measured": [
+    "isolated_music_gain",
+    "music_BPM",
+    "impact_count",
+    "frame_accurate_host_duration",
+    "validated_cut_count",
+    "exact_font_name"
+  ]
+}
